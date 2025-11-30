@@ -14,7 +14,6 @@ public class AssignmentTwo {
     }
 
     public void partThree() {
-        System.out.println("Part 3 - Waiting Line:");
         Ride ride = new Ride("Roller Coaster", new Employee("Hans Wang", 30, "Male", "E001", "Operator"), 5);
         Visitor v1 = new Visitor("Zhang San", 20, "Male", "001", 2);
         Visitor v2 = new Visitor("Li Si", 21, "Male", "002", 1);
@@ -37,7 +36,6 @@ public class AssignmentTwo {
     }
 
     public void partFourA() {
-        System.out.println("\nPart 4A - Ride History:");
         Ride ride = new Ride("Water Ride", new Employee("Jake Chen", 40, "Male", "E002", "Operator"), 4);
         Visitor v1 = new Visitor("Du HaiHuang", 25, "Male", "006", 2);
         Visitor v2 = new Visitor("Ma HaoNing", 26, "Male", "007", 1);
@@ -60,7 +58,6 @@ public class AssignmentTwo {
     }
 
     public void partFourB() {
-        System.out.println("\nPart 4B - Sorting Ride History:");
         Ride ride = new Ride("Ferris Wheel", new Employee("SuperMen", 40, "Male", "E003", "Operator"), 3);
         Visitor v1 = new Visitor("Xi YangYang", 30, "Male", "011", 2);
         Visitor v2 = new Visitor("Mei YangYang", 31, "Female", "012", 1);
@@ -86,7 +83,6 @@ public class AssignmentTwo {
     }
 
     public void partFive() {
-        System.out.println("\nPart 5 - Run a Ride Cycle:");
         Ride ride = new Ride("Bumper Cars", new Employee("IronMan", 40, "Male", "E004", "Operator"), 2);
         Visitor v1 = new Visitor("Bob", 18, "Male", "016", 2);
         Visitor v2 = new Visitor("Alice", 19, "Female", "017", 1);
@@ -128,7 +124,6 @@ public class AssignmentTwo {
     }
 
     public void partSix() {
-        System.out.println("\nPart 6 - Writing to a File:");
         Ride ride = new Ride("Haunted House", new Employee("Wang XiaoMing", 40, "Male", "E005", "Operator"), 4);
         Visitor v1 = new Visitor("Fa Lao", 20, "Male", "026", 2);
         Visitor v2 = new Visitor("Chen ZhengYu", 21, "Male", "027", 1);
@@ -149,7 +144,6 @@ public class AssignmentTwo {
     }
 
     public void partSeven() {
-        System.out.println("\nPart 7 - Reading from a File:");
         Ride ride = new Ride("Merry-Go-Round", new Employee("BiLiBiLi", 30, "Male", "E006", "Operator"), 3);
         ride.importRideHistory("ride_history.txt");
 
